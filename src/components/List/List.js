@@ -58,10 +58,10 @@ const List = () => {
         <h1 className={styles.title}>
           Things to do <span>soon</span>
         </h1>
-        <p className={styles.description}>
-          Interesting things I want to check out
-        </p>
       </header>
+      <p className={styles.description}>
+          Interesting things I want to check out
+      </p>
       <section className={styles.columns}>
         {columns.map((column) => (
           <Column key={column.id} id={column.id} title={column.title} icon={column.icon} cards={column.cards} action={addCard} />
