@@ -5,6 +5,7 @@ import { useDispatch } from 'react-redux';
 import TextInput from '../TextInput/TextInput';
 import styles from './SearchForm.module.scss';
 import Button from '../Button/Button';
+import { updateSearchString } from '../../redux/store';
 
 const SearchForm = () => {
     const [string, setString] = useState('');
@@ -13,7 +14,7 @@ const SearchForm = () => {
 
     const handleSubmit = e => {
         e.preventDefault();
-        dispatch({type: 'UPDATE_SEARCHESTRING', payload: string});
+        dispatch(updateSearchString(string));
         setString('');
     }
     return (
