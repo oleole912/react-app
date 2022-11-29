@@ -1,0 +1,36 @@
+@import '../../styles/settings.scss';
+
+.nav {
+    background-color: darken($color-dark, 3%);
+    color: $color-light;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 8%;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+    a {
+        font-size: 24px;
+        color: $color-light;
+
+    }
+}
+
+
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+
+    a {
+        color: $color-light;
+        text-decoration: none;
+        font-family: $font-text;
+    }
+}
+

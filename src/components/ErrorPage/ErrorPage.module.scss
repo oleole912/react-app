@@ -1,0 +1,8 @@
+@import '../../styles/settings.scss';
+
+.message {
+    font-family: $font-text;
+    font-size: ($base-size * 2.5);
+    text-align: center;
+    margin: 0;
+}
