@@ -1,7 +1,7 @@
 import React from 'react';
 import PageTitle from '../PageTitle/PageTitle';
 
-function Favorite() {
+const Favorite = () => {
     return (
         <PageTitle>Favorite</PageTitle>
     )

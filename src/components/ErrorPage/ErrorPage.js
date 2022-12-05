@@ -2,7 +2,7 @@ import React from 'react'
 import PageTitle from '../PageTitle/PageTitle';
 import styles from './ErrorPage.module.scss';
 
-function ErrorPage() {
+const ErrorPage = () => {
   return (
     <>
       <PageTitle>Ooops!</PageTitle>

@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './PageTitle.module.scss';
 
-function PageTitle({children}) {
+const PageTitle = ({children}) => {
     return (
         <h1 className={styles.title}>{children}</h1>
     )
