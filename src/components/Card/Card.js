@@ -1,17 +1,14 @@
 import styles from './Card.module.scss';
 import clsx from 'clsx';
-import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { removeCard, toggleCardFavorite } from '../../redux/cardsRedux';
 
 
-const Card = ({title, id}) => {
-    const [isFavorite, setIsFavorite] = useState(false);
+const Card = ({title, id, isFavorite}) => {
 
     const dispatch = useDispatch();
 
     const toggleHandler = () => {
-        setIsFavorite(!isFavorite);
         dispatch(toggleCardFavorite(id, isFavorite));
     }
 
