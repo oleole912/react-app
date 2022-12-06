@@ -3078,6 +3078,11 @@ cliui@^7.0.2:
     strip-ansi "^6.0.0"
     wrap-ansi "^7.0.0"
 
+clsx@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.2.1.tgz#0ddc4a20a549b59c93a4116bb26f5294ca17dc12"
+  integrity sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==
+
 co@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
@@ -6259,6 +6264,11 @@ mkdirp@~0.5.1:
   integrity sha512-FP+p8RB8OWpF3YZBCrP5gtADmtXApB5AMLn+vdyA+PyxCjrCs00mjyUozssO33cwDeT3wNGdLxJ5M//YqtHAJw==
   dependencies:
     minimist "^1.2.6"
+
+module-clsx@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/module-clsx/-/module-clsx-1.0.0.tgz#341003a18b325636f3186643ea24889d853b349b"
+  integrity sha512-msQXUW1Mp8TTsDriAilx26jPDaHyKc0y/ne95WlBxbT6OZq9Er7ngjoBMW9JAPgKyFEPrD0L7I1eEgevQBkdiA==
 
 ms@2.0.0:
   version "2.0.0"
