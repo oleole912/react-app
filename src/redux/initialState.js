@@ -20,8 +20,8 @@ const initialState = {
       },
       {
         id: 4,
-        title: 'Test column',
-        icon: 'text',
+        title: 'Clothes',
+        icon: 'tag',
         listId: '2'
       }
     ],
@@ -45,8 +45,8 @@ const initialState = {
       },
      {
         id: '2',
-        title: 'Test list',
-        description: 'Lorem Ipsum'
+        title: 'Things to buy...',
+        description: '... in February'
      }
    ]
 

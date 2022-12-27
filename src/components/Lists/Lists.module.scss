@@ -12,6 +12,7 @@
 .listLink {
   display: block;
   max-width: $base-size * 35;
+  width: 100%;
   margin: ($base-size * 2) auto ($base-size * 2) auto;
   text-decoration: none;
   color: $color-dark;
@@ -20,4 +21,17 @@
   border-radius: $radius;
   box-shadow: 0 math.div($base-size, 4) 0 rgba(0,0,0,0.3);
   padding: $base-size;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 25px;
+}
+
+.listWrapper {
+  display: flex;
+  width: 40%;
+  margin: ($base-size * 2) auto ($base-size * 2) auto;
 }
